@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  border: none;
+  outline: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+mat-stepper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+::ng-deep .mat-horizontal-stepper-wrapper {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 106, 97, 0.05),
+      rgba(0, 106, 97, 0.05)
+    ),
+    #fafdfb;
+  border-radius: 12px;
+}
+
+.mat-mdc-form-field {
+  margin-top: 16px;
+}
+
+h1 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+mat-form-field {
+  font-size: 14px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+::ng-deep .mat-step-header .mat-step-icon-selected {
+  background-color: #006a61;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  background: #006a61;
+  color: white;
+  border-radius: 12px;
+}
